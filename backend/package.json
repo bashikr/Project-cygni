@@ -1,0 +1,25 @@
+{
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "lint": "eslint .",
+        "watch": "nodemon app.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.1",
+        "express": "^4.17.1",
+        "flickr-sdk": "^6.0.0",
+        "node-cache": "^5.1.2"
+    },
+    "devDependencies": {
+        "eslint": "^7.32.0",
+        "javascript-style-guide": "^1.0.1"
+    }
+}
